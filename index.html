@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube - CSS Grid</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="main-header-left-controls">
+            <a href="#" target="_self">
+                <img src="assets/img/menu.png" alt="Ícone de menu" />
+            </a>
+            <a href="#" target="_self">
+                <img src="assets/img/youtube-Logo.png" alt="Logo do youtube" />
+            </a>
+        </div>
+
+        <div class="main-header-search-controls">
+            <input type="search" name="search" value="" placeholder="Pesquisar" />
+            <button type="submit" id="search" title="Pesquisa">
+                <img src="assets/img/search.png" alt="Ícone de pesquisa" />
+            </button>
+        </div>
+        <div class="main-header-right-controls">
+            <a href="#" title="Envia">
+                <img src="assets/img/video.png" alt="Ícone de upload de vídeo" />
+            </a>
+            <a href="#" title="Notificações">
+                <img src="assets/img/bell.png" alt="Ícone de notificação" />
+            </a>
+            <a href="#" title="Perfil">
+                <img src="assets/img/Avatar.png" alt="Avatar do usuário" />
+            </a>
+        </div>
+    </header>
+
+    <div class="grid-container">
+        <aside>
+            <nav class="left-side-nav">
+                <a class="active" href="#" target="_self" title="Início">
+                    <img src="assets/img/home.png" alt="Ícone de casa para Início" />
+                    <span>Início</span>
+                </a>
+
+                <a href="#" target="_self" title="Exploração">
+                    <img src="assets/img/compass.png" alt="Ícone de bússola para Explorar" />
+                    <span>Explorar</span>
+                </a>
+
+                <a href="#" target="_self" title="Inscrições">
+                    <img src="assets/img/youtube.png" alt="Ícone do YouTube para Inscrições" />
+                    <span>Inscrições</span>
+                </a>
+
+                <a href="#" target="_self" title="YouTube Music">
+                    <img src="assets/img/disc.png" alt="Ícone de disco para YouTube Music" />
+                    <span>YouTube Music</span>
+                </a>
+
+                <a href="#" target="_self" title="Vídeos que gostei">
+                    <img src="assets/img/thumbs-up.png" alt="Ícone de polegar para cima para Vídeos que gostei" />
+                    <span>Vídeos que gostei</span>
+                </a>
+
+                <a href="#" target="_self" title="Assistir mais tarde">
+                    <img src="assets/img/clock.png" alt="Ícone de relógio para Assistir mais tarde" />
+                    <span>Assistir mais tarde</span>
+                </a>
+
+                <a href="#" target="_self" title="Downloads">
+                    <img src="assets/img/download.png" alt="Ícone de download" />
+                    <span>Downloads</span>
+                </a>
+
+                <a href="#" target="_self" title="Filmes">
+                    <img src="assets/img/film.png" alt="Ícone de filme" />
+                    <span>Filmes</span>
+                </a>
+
+                <a href="#" target="_self" title="Aprender">
+                    <img src="assets/img/book.png" alt="Ícone de livro para Aprender" />
+                    <span>Aprender</span>
+                </a>
+
+                <a href="#" target="_self" title="Esportes">
+                    <img src="assets/img/award.png" alt="Ícone de troféu para Esportes" />
+                    <span>Esportes</span>
+                </a>
+            </nav>
+        </aside>
+
+        <main>
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/data-science.png"
+                            alt="Miniatura do vídeo 'Geração Tech Unimed - BH - Ciência de Dados'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Geração Tech Unimed - BH - Ciência de Dados">Geração Tech Unimed - BH
+                                    - Ciência de Dados</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>2,1 mil visualizações <br> Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/scrum.png" alt="Miniatura do vídeo Scrum Talks" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Scrum Talks">Scrum Talks</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,6 mil visualizações <br> Transmitido há 3 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/machine.png"
+                            alt="Miniatura do vídeo 'Machine Learning Avançado'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" />
+                        </a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Machine Learning Avançado">Machine Learning Avançado - Fast Track</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,7 mil visualizações <br> Transmitido há 4 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/planning.png"
+                            alt="Miniatura do vídeo 'Global Skills #2 - Project Planning'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Global Skills #2 - Project Planning">Global Skills #2 - Project
+                                    Planning</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>2,1 mil visualizações <br> Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/python.png"
+                            alt="Miniatura do vídeo 'Como aprender a programar Python do ZERO'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" />
+                        </a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Como aprender a programar Python do ZERO">
+                                    Como aprender a programar Python do ZERO</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>711 visualizações <br> Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/data-science.png"
+                            alt="Miniatura do vídeo 'Geração Tech Unimed - BH - Ciência de Dados'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" />
+                        </a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Geração Tech Unimed - BH - Ciência de Dados">Geração Tech Unimed - BH
+                                    - Ciência de Dados</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>2,1 mil visualizações <br> Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/scrum.png" alt="Miniatura do vídeo 'Scrum Talks'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Scrum Talks">Scrum Talks</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,6 mil visualizações <br> Transmitido há 3 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/machine.png"
+                            alt="Miniatura do vídeo 'Machine Learning Avançado'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Machine Learning Avançado">Machine Learning Avançado - Fast Track</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,7 mil visualizações <br> Transmitido há 4 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/scrum.png" alt="Miniatura do vídeo Scrum Talks" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Scrum Talks">Scrum Talks</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,6 mil visualizações <br> Transmitido há 3 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/machine.png"
+                            alt="Miniatura do vídeo 'Machine Learning Avançado'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Machine Learning Avançado">Machine Learning Avançado - Fast Track</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>1,7 mil visualizações <br> Transmitido há 4 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/planning.png"
+                            alt="Miniatura do vídeo 'Global Skills #2 - Project Planning'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" /></a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Global Skills #2 - Project Planning">Global Skills #2 - Project
+                                    Planning</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>2,1 mil visualizações <br>Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+            <article>
+                <div class="video-thumb">
+                    <a href="#"><img src="assets/img/python.png"
+                            alt="Miniatura do vídeo 'Como aprender a programar Python do ZERO'" /></a>
+                </div>
+                <header>
+                    <div class="video-info">
+                        <a href="#" title="Dio"><img src="assets/img/Channel-Avatar.png" alt="Avatar da dio" />
+                        </a>
+                        <div>
+                            <h2>
+                                <a href="#" title="Como aprender a programar Python do ZERO">Como aprender a programar
+                                    Python do ZERO</a>
+                            </h2>
+                            <div class="video-views">
+                                <span>711 visualizações <br> Transmitido há 2 dias</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </article>
+
+        </main>
+</body>
+
+</html>

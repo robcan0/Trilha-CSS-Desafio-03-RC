@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  padding: 20px;
+  gap: 10px;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+  justify-content: center;
+  gap: 42px;
+  padding-right: 16px;
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 42px auto;
+  gap: 10px;
+
+}
+
+.video-info img {
+  padding-top: 10px;
+}
+
+.video-info h2,
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.video-views {
+  font-size: 0.75rem;
+  color: #515151;
+}
+
+.video-views span {
+  display: block;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.main-header-left-controls,
+.main-header-right-controls {
+  display: flex;
+  align-items: center;
+}
+
+.main-header-left-controls {
+  gap: 32px;
+
+}
+
+.main-header-right-controls {
+  gap: 24px;
+}
+
+.main-header-search-controls {
+  display: flex;
+}
+
+.main-header-search-controls input[type="search"] {
+  width: 348px;
+  height: 40px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  font-weight: normal;
+  outline: none;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+.main-header-search-controls input[type="search"]::placeholder {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.main-header-search-controls input:active {
+  border: 1px solid #444;
+}
+
+#search {
+  width: 57px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#search img {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.left-side-nav {
+  margin-top: 22px;
+}
+
+.left-side-nav a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  padding: 5px;
+  text-decoration: none;
+  color: #444;
+}
